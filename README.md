@@ -8,10 +8,7 @@
 
 ## Documentation
 
-React:
-[![React](https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png)](https://react.dev/)
-Npm:
-[![Npm](https://logowik.com/content/uploads/images/npm-inc7007.logowik.com.webp)](https://www.npmjs.com/)
+[React](https://react.dev/) , [Npm](https://www.npmjs.com/) , [Mongoose](https://mongoosejs.com/)
 
 ## Features
 
