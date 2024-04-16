@@ -8,8 +8,10 @@
 
 ## Documentation
 
-[Npm ,](https://www.npmjs.com/)
-[React](https://react.dev/)
+React:
+[![React](https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png)](https://react.dev/)
+Npm:
+[![Npm](https://logowik.com/content/uploads/images/npm-inc7007.logowik.com.webp)](https://www.npmjs.com/)
 
 ## Features
 
@@ -61,7 +63,7 @@ Go to the project directory
 
 **Backend:** Node, Express,Mongoose
 
-**Backend:** Material UI,Bootstarp
+**FrameWork:** Material UI,Bootstarp
 
 
 ## Feedback
