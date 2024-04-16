@@ -57,9 +57,11 @@ Go to the project directory
 
 ## Tech Stack
 
-**Frontend:** React,Material UI, CSS, Bootstarp
+**Frontend:** React, CSS, JavaScript,HTML
 
 **Backend:** Node, Express,Mongoose
+
+**Backend:** Material UI,Bootstarp
 
 
 ## Feedback
