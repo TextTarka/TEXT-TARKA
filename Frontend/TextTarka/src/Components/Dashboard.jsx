@@ -2,10 +2,8 @@ import React, { useState } from 'react';
 import pdfToText from 'react-pdftotext';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import pLimit from 'p-limit';
-
+import Navbar from './Navbar'
 function PdfViewer() {
-    const limit = pLimit(1);
     const [text, setText] = useState('');
     const [editedText, setEditedText] = useState('');
     const [rephrasedText, setRephrasedText] = useState('');
@@ -73,6 +71,7 @@ function PdfViewer() {
 
     return (
         <div className="container mt-5">
+            <Navbar />
             <div className="row">
                 <div className="col-md-6 offset-md-3">
                     <h2 className="text-center mb-4">PDF Text Viewer & Editor</h2>

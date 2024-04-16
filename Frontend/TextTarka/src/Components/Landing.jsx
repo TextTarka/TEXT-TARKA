@@ -18,11 +18,10 @@ const Landing = () => {
         <div class="container-fluid">
           <div class="d-flex justify-content-center align-items-center w-100 spotify">
             <div class="font_work">
-            <FontAwesomeIcon icon={faMoneyBillTrendUp}/>
+            <FontAwesomeIcon icon={faChartLine} className="ii"/>
             </div>
             <a class="navbar-brand text-center" href="/">
-              <i class="fa-brands fa-spotify"></i>
-              TrackItAll
+              TextTarka
             </a>
             <button
               class="navbar-toggler"
@@ -54,7 +53,7 @@ const Landing = () => {
       <div class=" bg">
         
         <div class="content1">
-          <p>TrackItAll! A Comprehensive Personal Management Solution</p>
+          <p>TextTarka! Elevate your document analysis with our seamless text extraction and enrichment tool.</p>
           <button class="button">
             {" "}
             <Link to="/login" className="btn">
@@ -66,7 +65,7 @@ const Landing = () => {
       <div id="special">
         <a href="/"></a>
       </div>
-      <h2>Why TrackItAll?</h2>
+      <h2>Why TextTarka?</h2>
 
       <div class="part2">
         <div class="rectangle">
@@ -75,7 +74,7 @@ const Landing = () => {
           </div>
           <h6>
             {" "}
-            <b> EmpowerSuccess</b>
+            <b> Empower Success</b>
           </h6>
           <p>Break down goals, focusing on each step's impacts.</p>
         </div>
@@ -87,33 +86,30 @@ const Landing = () => {
             {" "}
             <b>Boost Productivity</b>
           </h6>
-          <p>Priortize tasks based on urgency and importance.</p>
+          <p>Boost productivity with seamless integration into your workflow.</p>
         </div>
         <div class="rectangle">
           <div class="circle">
           <FontAwesomeIcon icon={faMoneyBill1Wave} className="ii"/>
           </div>
           <h6>
-            <b>Financial Mastery</b>
+            <b>Error Free</b>
           </h6>
-          <p>Track spending to achieve long-term financial goals.</p>
+          <p>Enjoy error-free operation with comprehensive error handling.</p>
         </div>
         <div class="rectangle">
           <div class="circle">
           <FontAwesomeIcon icon={faChartLine} className="ii"/> 
           </div>
           <h6>
-            <b>Budget Brilliance</b>
+            <b>User Interaction</b>
           </h6>
-          <p>
-            Categorize expenses, ensuring smart financial decisions and
-            stability.
-          </p>
+          <p>Experience an intuitive interface for effortless navigation.</p>
         </div>
       </div>
       <div className="part3">
         {" "}
-        <p>It's free. No credit card required.</p>
+        <p>Unlock insights from your documents with just a click!!!</p>
       </div>
 
       <div id="special1">
@@ -153,14 +149,13 @@ const Landing = () => {
               <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                 <h6 class="text-uppercase fw-bold mb-4 font_color">
                   <i class="fa-brands fa-spotify font_color"></i>
-                  TrackItAll
+                  TextTarka
                 </h6>
                 <p class=" font_color">
-                  TrackItAll is a versatile task management platform, empowering
-                  users to efficiently organize, prioritize, and accomplish
-                  their goals. With a user-friendly interface and powerful
-                  features, it simplifies task tracking, boosting productivity
-                  and ensuring successful project management.
+                  TextTarka extracts text from uploaded PDFs using Langchain. 
+                  OpenAI enriches this text with insights. 
+                  Users customize extraction and enjoy secure access. 
+                  Collaboration features enhance teamwork.
                 </p>
               </div>
 
@@ -183,11 +178,6 @@ const Landing = () => {
                     Kushagra Gupta
                   </a>
                 </p>
-                <p class=" font_color">
-                  <a href="/" class="text-reset font_color">
-                    Vaishnavi Agrawal
-                  </a>
-                </p>
               </div>
               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 class="text-uppercase fw-bold mb-4  font_color">
@@ -208,17 +198,12 @@ const Landing = () => {
                     kushagra.gupta_cs21@gla.ac.in
                   </a>
                 </p>
-                <p class=" font_color">
-                  <a href="/" class="text-reset font_color">
-                    vaishnavi.agrawal_cs21@gla.ac.in
-                  </a>
-                </p>
               </div>
             </div>
           </div>
         </section>
         <div className="bg-black text-light p-4">
-          <h4 className="text-center">All rights reserved &copy; TrackItAll</h4>
+          <h4 className="text-center">All rights reserved &copy; TextTarka</h4>
         </div>
       </footer>
     </>

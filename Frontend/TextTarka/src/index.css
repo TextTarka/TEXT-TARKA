@@ -1,0 +1,431 @@
+
+
+
+
+/* landing page */
+#navbb {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+
+}
+
+#navbb a {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#navbb a:hover {
+    transition: 800ms;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.spotify {
+    font-size: 2em;
+}
+
+.navul a {
+    margin: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navul a:hover {
+    background-image: url('https://media.istockphoto.com/id/185007737/photo/dark-blue-grunge-background.jpg?s=612x612&w=0&k=20&c=YIHLCULIeavPuYWz16ecgycBWdZn7XbB0qMjoi9r9p8=');
+
+}
+
+.bg {
+    height: 90vh;
+    width: 100;
+    background-image: url('https://media.istockphoto.com/id/185007737/photo/dark-blue-grunge-background.jpg?s=612x612&w=0&k=20&c=YIHLCULIeavPuYWz16ecgycBWdZn7XbB0qMjoi9r9p8=');
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.phone_spo {
+    height: 90%;
+    margin-top: 5%;
+    margin-left: 18%;
+    transition: 200ms;
+}
+
+.phone_spo:hover {
+
+    transform: rotatez(1deg);
+}
+
+
+.content1 {
+
+    margin-top: 13%;
+    margin-left: 0px;
+}
+
+.content1 p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3.9em;
+}
+
+.button {
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border: 1px solid white;
+    font-size: 0.7em;
+}
+
+.btn {
+    color: black;
+}
+
+.btn:hover {
+    transform: scaleX(1.01);
+}
+
+.button:hover {
+    transition: 900ms;
+    transform: scaleX(1.01);
+}
+
+h2 {
+    text-align: center;
+    padding: 7%;
+}
+
+h2:hover {
+    transition: 900ms;
+    transform: scaleX(1.01);
+
+}
+
+.part2 {
+    width: 100;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rectangle {
+    transition: 1s;
+
+}
+
+.circle {
+    margin: auto;
+    border-radius: 50%;
+    height: 100px;
+    background-image: url('https://media.istockphoto.com/id/185007737/photo/dark-blue-grunge-background.jpg?s=612x612&w=0&k=20&c=YIHLCULIeavPuYWz16ecgycBWdZn7XbB0qMjoi9r9p8=');
+    background-size: cover;
+    transition: 1s;
+    width: 100px;
+}
+
+.circle:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.circle .ii {
+    margin-top: 23px;
+    margin-left: 24px;
+    color: white;
+    font-size: 2.4em;
+}
+
+
+.rectangle h6 {
+    padding: 6%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.rectangle p {
+    text-align: center;
+}
+
+.part3,
+.part5 {
+    margin-top: 7%;
+    /* height:55vh; */
+    width: 100;
+    background-image: url('https://media.istockphoto.com/id/185007737/photo/dark-blue-grunge-background.jpg?s=612x612&w=0&k=20&c=YIHLCULIeavPuYWz16ecgycBWdZn7XbB0qMjoi9r9p8=');
+    background-size: cover;
+    margin-bottom: 7%;
+}
+
+.part3 p,
+.part5 p {
+    text-align: center;
+    padding: 7%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3.9em;
+}
+
+.bbb {
+    padding: 50px;
+    text-align: center;
+
+}
+
+footer {
+    background-image: url('https://media.istockphoto.com/id/185007737/photo/dark-blue-grunge-background.jpg?s=612x612&w=0&k=20&c=YIHLCULIeavPuYWz16ecgycBWdZn7XbB0qMjoi9r9p8=');
+    background-size: cover;
+}
+
+.font_color {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.svg-inline--fa {
+    color: white;
+    height: 1.5em;
+    padding-right: 8px;
+}
+
+.ram1 {
+    margin-top: 20px;
+    background-image: url('https://media.istockphoto.com/id/1407063872/vector/modern-abstract-background-with-black-gradient-abstract-black-business-background.jpg?s=612x612&w=0&k=20&c=6QftyGArm3LTpQsLw29DpZ9ZB42HMNK-wboAWyFZvto=');
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    height: 70vh;
+    background-size: cover;
+}
+
+.ram111 {
+    margin-top: 20px;
+    background-image: url('https://media.istockphoto.com/id/1407063872/vector/modern-abstract-background-with-black-gradient-abstract-black-business-background.jpg?s=612x612&w=0&k=20&c=6QftyGArm3LTpQsLw29DpZ9ZB42HMNK-wboAWyFZvto=');
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    height: 80vh;
+    background-size: cover;
+}
+
+.footer_base {
+    margin-bottom: 0;
+    position: fixed;
+    width: 100vw;
+}
+
+.text_color {
+    color: white;
+}
+
+.switch-icon {
+    background-color: white;
+}
+
+.btn {
+    background-color: white;
+    border: 1px solid white;
+}
+
+.buttonnn {
+    background-color: black;
+    color: white;
+
+}
+
+.todolist_heading {
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+
+}
+
+.ram2 {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/003/127/955/small/abstract-white-and-grey-background-with-dynamic-waves-shape-free-vector.jpg');
+    background-size: cover;
+}
+
+.ram5 {
+    height: 20px;
+    width: 2000px;
+}
+
+.ram3 {
+    background-image: url('https://media.istockphoto.com/id/1407063872/vector/modern-abstract-background-with-black-gradient-abstract-black-business-background.jpg?s=612x612&w=0&k=20&c=6QftyGArm3LTpQsLw29DpZ9ZB42HMNK-wboAWyFZvto=');
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-size: cover;
+    width: 100%;
+}
+
+.hh2 {
+    color: #bdf1a9;
+    font-size: 3.7rem;
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+
+.pp2 {
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.ppp2 {
+    color: white;
+    text-align: center;
+    font-size: 2.3em;
+}
+
+.mm1 {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.mm3 {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 70%;
+}
+
+.ram26 {
+    height: 260px
+}
+
+
+.button21 {
+    border-radius: 5px solid black;
+    margin-left: 200px;
+    height: 25px;
+    width: 115px;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+.btm90 {
+    color: white;
+    height: 40px;
+    width: 150px;
+    text-shadow: #b88968;
+    text-decoration: none;
+}
+
+.button21:hover {
+    background-color: white;
+}
+
+.btm90:hover {
+    color: black;
+    text-shadow: #b88968;
+    text-decoration: none;
+}
+
+.shyam {
+    height: 260px;
+}
+
+.button23 {
+    margin-left: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+
+.button23:hover {
+    background-color: white;
+    color: black;
+}
+
+.button29 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 1365px;
+    background-color: black;
+    color: white;
+}
+
+.button29:hover {
+    background-color: white;
+    color: black;
+}
+
+.button39 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 1330px;
+    background-color: black;
+    color: white;
+}
+
+.button39:hover {
+    background-color: white;
+    color: black;
+}
+
+.shyam98 {
+    padding: 100px;
+    padding-top: 0px;
+
+}
+
+.push1 {
+    text-align: center;
+    text-decoration: underline;
+    color: #8fa487;
+}
+
+.push2 {
+    color: #7995a8;
+}
+
+.pop30 {
+    background-image: url('https://media.istockphoto.com/id/1407063872/vector/modern-abstract-background-with-black-gradient-abstract-black-business-background.jpg?s=612x612&w=0&k=20&c=6QftyGArm3LTpQsLw29DpZ9ZB42HMNK-wboAWyFZvto=');
+}
+
+.mohan2 {
+    background-color: black;
+    height: 70px;
+    width: 100vw;
+    color: white;
+}
+
+.mohan76 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mohan90 {
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 0px;
+}
+
+.mohan55 {
+    background-color: black;
+    color: white;
+    margin: 5px;
+}
+
+.mohan99 {
+    margin-bottom: 100px;
+}
+
+.mohan100 {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/003/127/955/small/abstract-white-and-grey-background-with-dynamic-waves-shape-free-vector.jpg');
+    background-size: cover;
+    margin-top: 0px;
+}
+
+.button233 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}

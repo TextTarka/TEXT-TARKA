@@ -1,13 +1,12 @@
 import React from 'react'
 import {Routes,Route} from 'react-router-dom'
-
+import Navbar from './Components/Navbar'
 import Landing from './Components/Landing'
 import Signup from './Components/Signup'
 import Login from './Components/Login'
-
+import Dashboard from './Components/Dashboard'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
-import PdfViewer from './Components/Dashboard'
 
 function App() {
   return (
@@ -18,7 +17,7 @@ function App() {
         <Route path='/' element={<Landing />}/>
         <Route path='/login' element={<Login />}/>
         <Route path='/signup' element={<Signup />}/>
-        <Route path='/dashboard' element={<PdfViewer />}/>
+        <Route path='/dashboard' element={<Dashboard />}/>
         <Route path='/landing' element={<Landing />}></Route>
       </Routes>
     </div>

@@ -2,12 +2,23 @@ import React, { useState,useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate,Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
+import { styled } from '@mui/system';
+import { Card } from '@mui/material';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  MDBBtn,MDBContainer,MDBRow,MDBCol,MDBCard,MDBCardBody,MDBCardImage,MDBInput,MDBIcon,MDBCheckbox
+} from 'mdb-react-ui-kit';
+
+const StyledCard = styled(Card)(({ theme }) => ({
+  borderRadius: theme.spacing(3),
+  margin: theme.spacing(5),
+}));
 
 
 function Login() {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
-    username: '',
+    // username: '',
     email: '',
     password: ''
   });
@@ -26,6 +37,7 @@ function Login() {
         'Content-Type':'application/json'
       }
       const response=await axios.post('http://localhost:8080/login', {formData},{headers});
+      // console.log(response);
       if (response.data.msg === "Login Successfull") {
         localStorage.setItem(
           "user",
@@ -34,12 +46,6 @@ function Login() {
         toast.success('User Login successfully!!!');
         navigate('/dashboard');
     }
-      // if(response.ok){
-      //   const res_data=await response.json();
-      //   localStorage("token",res_data);
-      //   toast.success('User Login successfully!!!');
-      //   navigate('/dashboard');
-      // }
     } 
     catch (error) {
       if (error.response) {
@@ -69,36 +75,78 @@ function Login() {
     }
   }, [navigate]);
   return (
-    <div>
-      <div className='container'>
-        <div style={{ marginLeft: '35%', marginTop: '5%' }}>
-          <h1 className=''>Login Form</h1>
-          <div className='card shadow bg-dark text-light p-2' style={{ width: '25rem' }}>
+    <div className="bg-dark" style={{ minHeight: '100vh' }}>
+      <div className="container d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
+      <StyledCard className='text-black m-5'>
+        <MDBCardBody>
+          <MDBRow>
+            <MDBCol md='10' lg='6' className='order-2 order-lg-1 d-flex flex-column align-items-center'>
+            <p className="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Log in</p>
             <form onSubmit={handleSubmit}>
-              <div className='mb-3'>
-                <label htmlFor="exampleInput1" className="form-label">Username:</label>
-                <input type="text" className="form-control" id="exampleInput1" placeholder='Username' name='username' value={formData.username} onChange={handleChange} required />
+              {/* <div className="d-flex flex-row align-items-center mb-4 ">
+                <MDBIcon fas icon="user me-3" size='lg'/>
+                <MDBInput 
+                  placeholder='Username' 
+                  id='username' 
+                  type='text' 
+                  className='form-control' 
+                  name="username" 
+                  value={formData.username} 
+                  onChange={handleChange} 
+                  required 
+                />
+              </div> */}
+              <div className="d-flex flex-row align-items-center mb-4 ">
+                <MDBIcon fas icon="envelope me-3" size='lg'/>
+                <MDBInput 
+                  placeholder='Email' 
+                  id='email' 
+                  type='email' 
+                  className='form-control' 
+                  name="email" 
+                  value={formData.email} 
+                  onChange={handleChange} 
+                  required 
+                />
               </div>
-              <div className="mb-3">
-                <label htmlFor="exampleEmail" className="form-label">Email</label>
-                <input type="email" className="form-control" id="exampleEmail" placeholder='abc@gmail.com' name='email' value={formData.email} onChange={handleChange} required />
+              <div className="d-flex flex-row align-items-center mb-4 ">
+                <MDBIcon fas icon="lock me-3" size='lg'/>
+                <MDBInput 
+                  placeholder='Password' 
+                  id='password' 
+                  type='password' 
+                  className='form-control' 
+                  name="password" 
+                  value={formData.password} 
+                  onChange={handleChange} 
+                  required 
+                />
               </div>
-              <div className="mb-3">
-                <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
-                <input type="password" className="form-control" id="exampleInputPassword1" placeholder='********' name='password' value={formData.password} onChange={handleChange} required />
+              <div className='mb-4'>
+                <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='I agree all statements in Terms of service' required />
               </div>
-              <button type="submit" className="btn btn-outline-warning mt-2 justify-content-center">Login</button>
+              <button type="submit" className="btn btn-secondary btn-block mt-4" style={{backgroundColor:'black' ,color:'white'}}>Login</button>
             </form>
             <div className='mt-3 text-center'>
               <p className='mb-0'>Not registered yet?</p>
               <Link to="/signup" className='text-decoration-none'>Signup here</Link>
             </div>
-          </div>
-          
-        </div>
+            </MDBCol>
+  
+            <MDBCol md='10' lg='6' className='order-1 order-lg-2 d-flex align-items-center'>
+              <MDBCardImage src='https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp' fluid/>
+            </MDBCol>
+  
+          </MDBRow>
+        </MDBCardBody>
+      </StyledCard>
       </div>
+      
     </div>
+    
   );
+  
+  
 }
 
 export default Login;
