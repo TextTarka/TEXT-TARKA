@@ -6,6 +6,9 @@ import { faHourglass } from '@fortawesome/free-regular-svg-icons';
 import { faMoneyBill1Wave } from '@fortawesome/free-solid-svg-icons';
 import { faChartLine } from '@fortawesome/free-solid-svg-icons';
 import { faClockRotateLeft } from '@fortawesome/free-solid-svg-icons';
+import { faTriangleExclamation } from '@fortawesome/free-solid-svg-icons';
+import { faTextHeight } from '@fortawesome/free-solid-svg-icons';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 
 
@@ -18,7 +21,7 @@ const Landing = () => {
         <div class="container-fluid">
           <div class="d-flex justify-content-center align-items-center w-100 spotify">
             <div class="font_work">
-            <FontAwesomeIcon icon={faChartLine} className="ii"/>
+            <FontAwesomeIcon icon={faTextHeight} className="ii"/>
             </div>
             <a class="navbar-brand text-center" href="/">
               TextTarka
@@ -53,7 +56,7 @@ const Landing = () => {
       <div class=" bg">
         
         <div class="content1">
-          <p>TextTarka! Elevate your document analysis with our seamless text extraction and enrichment tool.</p>
+          <p>TextTarka: PDF Text Extraction & Enrichment Platform</p>
           <button class="button">
             {" "}
             <Link to="/login" className="btn">
@@ -61,6 +64,7 @@ const Landing = () => {
             </Link>
           </button>
         </div>
+
       </div>
       <div id="special">
         <a href="/"></a>
@@ -90,7 +94,8 @@ const Landing = () => {
         </div>
         <div class="rectangle">
           <div class="circle">
-          <FontAwesomeIcon icon={faMoneyBill1Wave} className="ii"/>
+          {/* <FontAwesomeIcon icon={faMoneyBill1Wave} className="ii"/> */}
+          <FontAwesomeIcon icon={faTriangleExclamation} className="ii" />
           </div>
           <h6>
             <b>Error Free</b>
@@ -99,7 +104,8 @@ const Landing = () => {
         </div>
         <div class="rectangle">
           <div class="circle">
-          <FontAwesomeIcon icon={faChartLine} className="ii"/> 
+          {/* <FontAwesomeIcon icon={faChartLine} className="ii"/>  */}
+          <FontAwesomeIcon icon={faUser} className="ii" />
           </div>
           <h6>
             <b>User Interaction</b>
@@ -148,7 +154,7 @@ const Landing = () => {
             <div class="row mt-3">
               <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                 <h6 class="text-uppercase fw-bold mb-4 font_color">
-                  <i class="fa-brands fa-spotify font_color"></i>
+                <FontAwesomeIcon icon={faTextHeight} className="ii"/>
                   TextTarka
                 </h6>
                 <p class=" font_color">
