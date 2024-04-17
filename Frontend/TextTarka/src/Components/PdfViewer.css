@@ -1,0 +1,39 @@
+/* PdfViewer.css */
+
+.mm-heading {
+    color: #4CAF50;
+    /* Green color for headings */
+    margin-bottom: 20px;
+}
+
+.mm-input {
+    background-color: #e0e0e0;
+    /* Light gray background for input */
+}
+.mm-bullet {
+    margin-right: 5px;
+}
+
+.mm-textarea {
+    background-color: #f0f0f0;
+    /* Lighter gray background for text areas */
+    color: #333;
+    /* Dark text color */
+    margin-bottom: 15px;
+}
+
+.mm-button {
+    background-color: #007BFF;
+    /* Blue color for button */
+    border-color: #007BFF;
+    color: #fff;
+    /* White text color */
+}
+
+.mm-error {
+    background-color: #FFC107;
+    /* Yellow color for error messages */
+    color: #fff;
+    /* White text color */
+    border-color: #FFC107;
+}

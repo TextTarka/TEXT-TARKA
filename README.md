@@ -8,8 +8,7 @@
 
 ## Documentation
 
-[Npm ,](https://www.npmjs.com/)
-[React](https://react.dev/)
+[React](https://react.dev/) , [Npm](https://www.npmjs.com/) , [Mongoose](https://mongoosejs.com/)
 
 ## Features
 
@@ -20,11 +19,6 @@
 
 
 
-## Roadmap
-
-- Additional browser support
-
-- Add more integrations
 
 
 ## Installation
@@ -57,20 +51,14 @@ Go to the project directory
 
 ## Tech Stack
 
-**Frontend:** React,HTML, CSS, JavaScript 
+**Frontend:** React, CSS, JavaScript,HTML
 
-**Backend:** Node,Express,Mongoose
+**Backend:** Node, Express,Mongoose
 
-**FrameWork:** Bootstarp,Material UI
-
+**FrameWork:** Material UI,Bootstarp
 
 
 ## Feedback
 
 If you have any feedback, please reach out to us at text@tarka.com
-
-
-
-
-
 

@@ -17,17 +17,17 @@ import React from 'react';
 const Landing = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg" id="navbb">
-        <div class="container-fluid">
-          <div class="d-flex justify-content-center align-items-center w-100 spotify">
-            <div class="font_work">
+      <nav className="navbar navbar-expand-lg" id="navbb">
+        <div className="container-fluid">
+          <div className="d-flex justify-content-center align-items-center w-100 spotify">
+            <div className="font_work">
             <FontAwesomeIcon icon={faTextHeight} className="ii"/>
             </div>
-            <a class="navbar-brand text-center" href="/">
+            <a className="navbar-brand text-center" href="/">
               TextTarka
             </a>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNavAltMarkup"
@@ -35,29 +35,29 @@ const Landing = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
           </div>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav justify-content-evenly navul">
-              <a class="nav-link active" aria-current="page" href="#special">
+          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div className="navbar-nav justify-content-evenly navul">
+              <a className="nav-link active" aria-current="page" href="#special">
                 About_Us
               </a>
-              <a class="nav-link active" aria-current="page" href="https://forms.gle/oqqyJST7Ewod7uM66">
+              <a className="nav-link active" aria-current="page" href="https://forms.gle/oqqyJST7Ewod7uM66">
               Support
               </a>
-              <a class="nav-link active" aria-current="page" href="/">
+              <a className="nav-link active" aria-current="page" href="/">
                 <Link to="/login">Login/signup</Link>
               </a>
             </div>
           </div>
         </div>
       </nav>
-      <div class=" bg">
+      <div className=" bg">
         
-        <div class="content1">
+        <div className="content1">
           <p>TextTarka: PDF Text Extraction & Enrichment Platform</p>
-          <button class="button">
+          <button className="button">
             {" "}
             <Link to="/login" className="btn">
               GET STARTED
@@ -71,9 +71,9 @@ const Landing = () => {
       </div>
       <h2>Why TextTarka?</h2>
 
-      <div class="part2">
-        <div class="rectangle">
-          <div class="circle">
+      <div className="part2">
+        <div className="rectangle">
+          <div className="circle">
           <FontAwesomeIcon icon={faThumbsUp}  className="ii" />
           </div>
           <h6>
@@ -82,8 +82,8 @@ const Landing = () => {
           </h6>
           <p>Break down goals, focusing on each step's impacts.</p>
         </div>
-        <div class="rectangle">
-          <div class="circle">
+        <div className="rectangle">
+          <div className="circle">
           <FontAwesomeIcon icon={faClockRotateLeft}  className="ii" />
           </div>
           <h6>
@@ -92,8 +92,8 @@ const Landing = () => {
           </h6>
           <p>Boost productivity with seamless integration into your workflow.</p>
         </div>
-        <div class="rectangle">
-          <div class="circle">
+        <div className="rectangle">
+          <div className="circle">
           {/* <FontAwesomeIcon icon={faMoneyBill1Wave} className="ii"/> */}
           <FontAwesomeIcon icon={faTriangleExclamation} className="ii" />
           </div>
@@ -102,8 +102,8 @@ const Landing = () => {
           </h6>
           <p>Enjoy error-free operation with comprehensive error handling.</p>
         </div>
-        <div class="rectangle">
-          <div class="circle">
+        <div className="rectangle">
+          <div className="circle">
           {/* <FontAwesomeIcon icon={faChartLine} className="ii"/>  */}
           <FontAwesomeIcon icon={faUser} className="ii" />
           </div>
@@ -121,43 +121,43 @@ const Landing = () => {
       <div id="special1">
         <a href="/"></a>
       </div>
-      <footer class="text-center text-lg-start bg-white text-muted footer">
-        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-          <div class="me-5 d-none d-lg-block font_color">
+      <footer className="text-center text-lg-start bg-white text-muted footer">
+        <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <div className="me-5 d-none d-lg-block font_color">
             <span>Get connected with us on social networks:</span>
           </div>
 
           <div>
-            <a href="/" class="me-4 link-secondary">
-              <i class="fab fa-facebook-f font_color"></i>
+            <a href="/" className="me-4 link-secondary">
+              <i className="fab fa-facebook-f font_color"></i>
             </a>
-            <a href="/" class="me-4 link-secondary">
-              <i class="fab fa-twitter font_color"></i>
+            <a href="/" className="me-4 link-secondary">
+              <i className="fab fa-twitter font_color"></i>
             </a>
-            <a href="/" class="me-4 link-secondary">
-              <i class="fab fa-google font_color"></i>
+            <a href="/" className="me-4 link-secondary">
+              <i className="fab fa-google font_color"></i>
             </a>
-            <a href="/" class="me-4 link-secondary">
-              <i class="fab fa-instagram font_color"></i>
+            <a href="/" className="me-4 link-secondary">
+              <i className="fab fa-instagram font_color"></i>
             </a>
-            <a href="/" class="me-4 link-secondary">
-              <i class="fab fa-linkedin font_color"></i>
+            <a href="/" className="me-4 link-secondary">
+              <i className="fab fa-linkedin font_color"></i>
             </a>
-            <a href="/" class="me-4 link-secondary">
-              <i class="fab fa-github font_color"></i>
+            <a href="/" className="me-4 link-secondary">
+              <i className="fab fa-github font_color"></i>
             </a>
           </div>
         </section>
 
-        <section class="">
-          <div class="container text-center text-md-start mt-5">
-            <div class="row mt-3">
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <h6 class="text-uppercase fw-bold mb-4 font_color">
+        <section className="">
+          <div className="container text-center text-md-start mt-5">
+            <div className="row mt-3">
+              <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6 className="text-uppercase fw-bold mb-4 font_color">
                 <FontAwesomeIcon icon={faTextHeight} className="ii"/>
                   TextTarka
                 </h6>
-                <p class=" font_color">
+                <p className=" font_color">
                   TextTarka extracts text from uploaded PDFs using Langchain. 
                   OpenAI enriches this text with insights. 
                   Users customize extraction and enjoy secure access. 
@@ -165,42 +165,42 @@ const Landing = () => {
                 </p>
               </div>
 
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 class="text-uppercase fw-bold mb-4  font_color">
+              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 className="text-uppercase fw-bold mb-4  font_color">
                   Powered By:
                 </h6>
-                <p class=" font_color">
-                  <a href="/" class="text-reset font_color">
+                <p className=" font_color">
+                  <a href="/" className="text-reset font_color">
                     Manav Mittal
                   </a>
                 </p>
-                <p class=" font_color">
-                  <a href="/" class="text-reset font_color">
+                <p className=" font_color">
+                  <a href="/" className="text-reset font_color">
                     Nikhil Agrawal
                   </a>
                 </p>
-                <p class=" font_color">
-                  <a href="/" class="text-reset font_color">
+                <p className=" font_color">
+                  <a href="/" className="text-reset font_color">
                     Kushagra Gupta
                   </a>
                 </p>
               </div>
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 class="text-uppercase fw-bold mb-4  font_color">
+              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 className="text-uppercase fw-bold mb-4  font_color">
                   Email-ID
                 </h6>
-                <p class=" font_color">
-                  <a href="/" class="text-reset font_color">
+                <p className=" font_color">
+                  <a href="/" className="text-reset font_color">
                     manav.mittal_cs21@gla.ac.in
                   </a>
                 </p>
-                <p class=" font_color">
-                  <a href="/" class="text-reset font_color">
+                <p className=" font_color">
+                  <a href="/" className="text-reset font_color">
                     nikhil.agrawal_cs21@gla.ac.in
                   </a>
                 </p>
-                <p class=" font_color">
-                  <a href="/" class="text-reset font_color">
+                <p className=" font_color">
+                  <a href="/" className="text-reset font_color">
                     kushagra.gupta_cs21@gla.ac.in
                   </a>
                 </p>
